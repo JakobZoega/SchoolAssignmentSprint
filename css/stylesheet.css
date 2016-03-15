@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #fff2f2;
+    position: relative;
+}
+
+#header_holder {
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url("../images/images-assets/image.jpg");
+    position: relative;
+}
+
+nav {
+    height: 25px;
+    float: right;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #fff2f2;
+    font-size: 15px;
+}
+nav li:first-child {
+    text-decoration: underline;
+}
+
+nav li a:hover {
+    color: #1abc9c;
+}
+nav ul {
+    background: transparent;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    font-family: 'Open Sans', sans-serif;
+}
+nav li {
+    padding: 25px 50px 0 0;
+}
+
+
+#menu_bar {
+    position: relative;
+}
+#menu_bar p {
+    line-height: 200%;
+}
+
+#header_text {}
+
+#go_ahead {
+    height: 57px;
+    width: 218px;
+    margin: -28px auto 0 auto;
+    position: relative;
+}
+
+
+
+section {
+    width: 1150px;
+    height: 1000px;
+    padding: 0 25px;
+    margin: 0 auto;
+    background-color: #fff2f2;
+    position: relative;
+}
+
+#raphael_lechner {
+    width: 768px;
+    padding: 100px 0 0 0;
+    margin: 0 auto;
+}
+
+
+#box_holder {
+    width: 1010px;
+    height: 257px;
+    margin: 75px auto;
+}
+
+.box {
+    width: 250px;
+    padding: 0 86px 0 0;
+    float: left;
+}
